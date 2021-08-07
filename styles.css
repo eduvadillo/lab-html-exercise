@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+
+header > div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+nav {
+  width: 600px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.blackHeart {
+  width: 20px;
+  margin-right: 1rem;
+}
+
+.headerBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 220px;
+}
+.npm {
+  width: 70px;
+}
+
+.formClass{
+  height: 55px;;
+}
+.glass {
+  width: 30px;
+  height: 30px;
+  padding-left: 50px;
+  
+}
+
+.searchbar {
+  width: 1150px;
+  justify-content: space-between;
+  display: inline-flex;
+
+}
+
+
+
+form label {
+  color: rgba(0,0,0,.05);
+  }
+
+
+.buttonHeader{
+display: inline-block;
+width: 180px;;
+}
+
+.buttonSearch{
+  width: 100px;
+  height: 55px;
+  color: white;
+  background-color: #fb3e44;
+  border: none;
+}
+
+input {
+  width: 950px;
+  height: 50px;
+  border: none;
+}
+
+.buttonJoin{
+  width: 60px;
+  height: 40px;
+  background-color: white;
+}
+
+.buttonLogIIn{
+  width: 60px;
+  height: 40px;
+  border:none;
+  background-color: white;
+}
+
+
+#build {
+display: flex;
+justify-content: center;
+align-items:center;
+flex-direction: column;
+background-color: rgba(232,217,217,.3)
+}
+
+#build h1{
+  font-size: 5em;
+  font-weight:bolder;
+  
+}
+
+#build p{
+width: 30%;
+font-size: 1.1em;
+text-align: center;
+margin-top: -40px;
+  }
+
+.buttonsBuild {
+  display: flex;
+    align-items: center;
+    height: 100px;
+    width: 400px;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+}
+
+.buttonSeePlans{
+  background-color: #FB3B49;
+box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+border:none;
+width: 150px;
+height: 50px;
+color:white;
+font-weight: bold;
+}
+
+.joinFree{
+  border:none;
+  font-weight: bold;
+  width: 150px;
+  height: 50px;
+  background-color: white;
+}
+
+#bring {
+display: flex;
+justify-content: center;
+align-items:center;
+flex-direction: column;
+padding: 80px;
+}
+
+.triangle{
+width: 200px;;
+}
+
+.bringText {
+  display: flex;
+}
+
+.bringH1{
+  padding-top: 40px;
+}
+
+#bring h1{
+  font-size: 2em;
+  font-weight:bolder;
+  background-color: rgba(255,204,53,.4);
+  transform: skew(9deg,0deg);
+  font-style: italic;
+
+  }
+  
+.bringP1{
+  display: flex;
+  justify-content: center;
+}
+#bring p{
+width: 50%;
+font-size: 1em;
+text-align: center;
+  }
+
+
+
+  .imgFeatures{
+    width: 50px;
+  }
+
+
+  .allFeatures{
+    display: flex;
+    padding-left: 220px;
+  }
+
+#features{
+  padding-top: 30px;
+}
+
+  #features h3{
+    color: #ED1C24;
+  }
+
+#features p {
+  text-align: justify;
+  font-size: 0.8em;
+}
+
+#features div {
+  padding-right: 50px;
+  padding-bottom: 40px;
+}
+
+.create-button{
+  padding-left: 650px;
+  height: 80px;
+}
+
+.create-org{
+  background-color: black;
+  color:white;
+  box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+  width: 200px;
+  height: 50px;
+  ;
+}
